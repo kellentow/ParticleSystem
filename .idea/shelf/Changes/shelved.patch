@@ -1,0 +1,837 @@
+Index: dev server/logs/latest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/dev server/logs/latest.log b/dev server/logs/latest.log
+new file mode 100644
+--- /dev/null	(date 1739321969271)
++++ b/dev server/logs/latest.log	(date 1739321969271)
+@@ -0,0 +1,91 @@
++[18:57:16] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.04.1; Ubuntu null) on Linux 6.8.0-52-generic (amd64)
++[18:57:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-143-main@1a04e96 (2025-02-08T20:09:30Z) for Minecraft 1.21.4
++[18:57:17] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
++[18:57:17] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Particle-System-0.1.1-DEV.jar'...
++[18:57:19] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Particle-System-0.1.1-DEV.jar' in 1779ms.
++[18:57:19] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
++[18:57:19] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
++ - ParticleSystem (0.1.1-RC)
++[18:57:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
++[18:57:31] [ServerMain/INFO]: Loaded 1370 recipes
++[18:57:31] [ServerMain/INFO]: Loaded 1481 advancements
++[18:57:31] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
++[18:57:31] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 294.2ms
++[18:57:31] [Server thread/INFO]: Starting minecraft server version 1.21.4
++[18:57:31] [Server thread/INFO]: Loading properties
++[18:57:31] [Server thread/INFO]: This server is running Paper version 1.21.4-143-main@1a04e96 (2025-02-08T20:09:30Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
++[18:57:31] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
++[18:57:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
++[18:57:31] [Server thread/INFO]: Using 4 threads for Netty based IO
++[18:57:33] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
++[18:57:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
++[18:57:33] [Server thread/INFO]: Default game type: SURVIVAL
++[18:57:33] [Server thread/INFO]: Generating keypair
++[18:57:33] [Server thread/INFO]: Starting Minecraft server on *:25565
++[18:57:33] [Server thread/INFO]: Using epoll channel type
++[18:57:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
++[18:57:33] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
++[18:57:33] [Server thread/INFO]: [ParticleSystem] Loading server plugin ParticleSystem v0.1.1-RC
++[18:57:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
++[18:57:33] [Server thread/INFO]: Preparing level "world"
++[18:57:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
++[18:57:35] [Server thread/INFO]: Preparing spawn area: 0%
++[18:57:35] [Server thread/INFO]: Preparing spawn area: 0%
++[18:57:36] [Server thread/INFO]: Preparing spawn area: 2%
++[18:57:36] [Server thread/INFO]: Preparing spawn area: 2%
++[18:57:36] [Server thread/INFO]: Time elapsed: 1622 ms
++[18:57:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
++[18:57:36] [Server thread/INFO]: Preparing spawn area: 0%
++[18:57:36] [Server thread/INFO]: Time elapsed: 212 ms
++[18:57:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
++[18:57:36] [Server thread/INFO]: Preparing spawn area: 0%
++[18:57:37] [Server thread/INFO]: Time elapsed: 131 ms
++[18:57:37] [Server thread/INFO]: [ParticleSystem] Enabling ParticleSystem v0.1.1-RC
++[18:57:37] [Server thread/INFO]: [spark] Starting background profiler...
++[18:57:37] [Server thread/INFO]: Done preparing level "world" (4.097s)
++[18:57:37] [Server thread/INFO]: Running delayed init tasks
++[18:57:37] [Server thread/INFO]: Done (22.323s)! For help, type "help"
++[18:58:00] [User Authenticator #0/INFO]: UUID of player KellenisSleepy is 20483605-2bc5-4de7-b765-a12e6767f260
++[18:58:00] [Server thread/INFO]: KellenisSleepy joined the game
++[18:58:00] [Server thread/INFO]: KellenisSleepy[/192.168.1.141:56432] logged in with entity id 324 at ([world]241.25667851941273, 83.44854608241906, -176.5259803294762)
++[18:58:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2521ms or 50 ticks behind
++[18:58:19] [Server thread/INFO]: KellenisSleepy issued server command: /particles fire 242.2345000878859 84.20000004768372 -179.75463919152295 1.5 0 true 2
++[18:58:34] [Server thread/INFO]: KellenisSleepy issued server command: /particles fire 242.2345000878859 85.20000004768372 -179.75463919152295 3 0 true 2
++[18:59:24] [Server thread/INFO]: Stopping the server
++[18:59:24] [Server thread/INFO]: Stopping server
++[18:59:24] [Server thread/INFO]: [ParticleSystem] Disabling ParticleSystem v0.1.1-RC
++[18:59:24] [Server thread/INFO]: [ParticleSystem] [STDOUT] JSON file created successfully!
++[18:59:24] [Server thread/WARN]: Nag author(s): '[Kellen]' of 'ParticleSystem v0.1.1-RC' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
++[18:59:24] [Server thread/INFO]: Saving players
++[18:59:24] [Server thread/INFO]: KellenisSleepy lost connection: Server closed
++[18:59:24] [Server thread/INFO]: KellenisSleepy left the game
++[18:59:24] [Server thread/INFO]: Saving worlds
++[18:59:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
++[18:59:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
++[18:59:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
++[18:59:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Saved 675 block chunks, 675 entity chunks, 0 poi chunks in world 'world' in 3.24s
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
++[18:59:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.23s
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
++[18:59:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
++[18:59:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
++[18:59:29] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.18s
++[18:59:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
++[18:59:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
++[18:59:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
++[18:59:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
++[18:59:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
++[18:59:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
++[18:59:29] [Server thread/INFO]: Waiting for I/O tasks to complete...
++[18:59:29] [Server thread/INFO]: All I/O tasks to complete
++[18:59:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
++[18:59:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1739396838734)
++++ b/.idea/workspace.xml	(date 1739396838734)
+@@ -0,0 +1,366 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="e2038d6a-ba79-4b79-91bb-22bfc9c2204f" name="Changes" comment="pusssshhhh pls">
++      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Builds/Particle-System-1.0-SNAPSHOT.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Particle-System.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/cache/mojang_1.21.4.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/ca/spottedleaf/concurrentutil/0.0.3/concurrentutil-0.0.3.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/github/oshi/oshi-core/6.6.5/oshi-core-6.6.5.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/lmax/disruptor/3.4.4/disruptor-3.4.4.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/microsoft/azure/msal4j/1.17.2/msal4j-1.17.2.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/mojang/authlib/6.0.57/authlib-6.0.57.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/mojang/jtracy/1.0.29/jtracy-1.0.29.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/mojang/logging/1.5.10/logging-1.5.10.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/nimbusds/content-type/2.3/content-type-2.3.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/nimbusds/lang-tag/1.7/lang-tag-1.7.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/nimbusds/nimbus-jose-jwt/9.40/nimbus-jose-jwt-9.40.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/nimbusds/oauth2-oidc-sdk/11.18/oauth2-oidc-sdk-11.18.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/com/velocitypowered/velocity-native/3.4.0-SNAPSHOT/velocity-native-3.4.0-SNAPSHOT.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/leangen/geantyref/geantyref/1.3.16/geantyref-1.3.16.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/netty/netty-buffer/4.1.115.Final/netty-buffer-4.1.115.Final.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/netty/netty-codec-haproxy/4.1.115.Final/netty-codec-haproxy-4.1.115.Final.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/netty/netty-codec/4.1.115.Final/netty-codec-4.1.115.Final.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/netty/netty-common/4.1.115.Final/netty-common-4.1.115.Final.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/netty/netty-handler/4.1.115.Final/netty-handler-4.1.115.Final.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/netty/netty-resolver/4.1.115.Final/netty-resolver-4.1.115.Final.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/netty/netty-transport-classes-epoll/4.1.115.Final/netty-transport-classes-epoll-4.1.115.Final.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/netty/netty-transport-native-epoll/4.1.115.Final/netty-transport-native-epoll-4.1.115.Final-linux-aarch_64.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/netty/netty-transport-native-epoll/4.1.115.Final/netty-transport-native-epoll-4.1.115.Final-linux-x86_64.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/netty/netty-transport/4.1.115.Final/netty-transport-4.1.115.Final.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/papermc/asm-utils/0.0.3/asm-utils-0.0.3.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/papermc/paper/paper-api/1.21.4-R0.1-SNAPSHOT/paper-api-1.21.4-R0.1-SNAPSHOT.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/papermc/reflection-rewriter-proxy-generator/0.0.3/reflection-rewriter-proxy-generator-0.0.3.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/papermc/reflection-rewriter-runtime/0.0.3/reflection-rewriter-runtime-0.0.3.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/io/papermc/reflection-rewriter/0.0.3/reflection-rewriter-0.0.3.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/javax/inject/javax.inject/1/javax.inject-1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/me/lucko/spark-api/0.1-20240720.200737-2/spark-api-0.1-20240720.200737-2.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/me/lucko/spark-paper/1.10.119-SNAPSHOT/spark-paper-1.10.119-SNAPSHOT.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/java/dev/jna/jna-platform/5.15.0/jna-platform-5.15.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/java/dev/jna/jna/5.15.0/jna-5.15.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/adventure-api/4.18.0/adventure-api-4.18.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/adventure-key/4.18.0/adventure-key-4.18.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/adventure-text-logger-slf4j/4.18.0/adventure-text-logger-slf4j-4.18.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/adventure-text-minimessage/4.18.0/adventure-text-minimessage-4.18.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/adventure-text-serializer-ansi/4.18.0/adventure-text-serializer-ansi-4.18.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/adventure-text-serializer-gson/4.18.0/adventure-text-serializer-gson-4.18.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/adventure-text-serializer-json/4.18.0/adventure-text-serializer-json-4.18.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/adventure-text-serializer-legacy/4.18.0/adventure-text-serializer-legacy-4.18.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/adventure-text-serializer-plain/4.18.0/adventure-text-serializer-plain-4.18.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/ansi/1.1.1/ansi-1.1.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/kyori/option/1.0.0/option-1.0.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/md-5/bungeecord-chat/1.20-R0.2-deprecated+build.19/bungeecord-chat-1.20-R0.2-deprecated+build.19.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/neoforged/installertools/cli-utils/2.1.4/cli-utils-2.1.4.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/neoforged/javadoctor/gson-io/2.0.17/gson-io-2.0.17.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/neoforged/javadoctor/spec/2.0.17/spec-2.0.17.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/neoforged/srgutils/1.0.9/srgutils-1.0.9.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/logging/log4j/log4j-api/2.24.1/log4j-api-2.24.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/logging/log4j/log4j-core/2.24.1/log4j-core-2.24.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/logging/log4j/log4j-iostreams/2.24.1/log4j-iostreams-2.24.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.24.1/log4j-slf4j2-impl-2.24.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/maven-artifact/3.9.6/maven-artifact-3.9.6.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/maven-builder-support/3.9.6/maven-builder-support-3.9.6.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/maven-model-builder/3.9.6/maven-model-builder-3.9.6.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/maven-model/3.9.6/maven-model-3.9.6.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/maven-repository-metadata/3.9.6/maven-repository-metadata-3.9.6.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/maven-resolver-provider/3.9.6/maven-resolver-provider-3.9.6.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/resolver/maven-resolver-connector-basic/1.9.18/maven-resolver-connector-basic-1.9.18.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/resolver/maven-resolver-impl/1.9.18/maven-resolver-impl-1.9.18.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/resolver/maven-resolver-named-locks/1.9.18/maven-resolver-named-locks-1.9.18.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/resolver/maven-resolver-spi/1.9.18/maven-resolver-spi-1.9.18.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/resolver/maven-resolver-transport-http/1.9.18/maven-resolver-transport-http-1.9.18.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/apache/maven/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M2/org.eclipse.sisu.inject-0.9.0.M2.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/jline/jline-native/3.27.1/jline-native-3.27.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/jline/jline-terminal-ffm/3.27.1/jline-terminal-ffm-3.27.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/jline/jline-terminal-jni/3.27.1/jline-terminal-jni-3.27.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/jline/jline-terminal/3.27.1/jline-terminal-3.27.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/spongepowered/configurate-core/4.2.0-SNAPSHOT/configurate-core-4.2.0-SNAPSHOT.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/spongepowered/configurate-yaml/4.2.0-SNAPSHOT/configurate-yaml-4.2.0-SNAPSHOT.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/xerial/sqlite-jdbc/3.47.0.0/sqlite-jdbc-3.47.0.0.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/libraries/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/logs/latest.log" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/paper-1.21.4-143.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/plugins/.paper-remapped/Particle-System-0.1.1-DEV.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/plugins/.paper-remapped/remap-classpath/75E103EE341CADFDB878E0B151E2920199309F161577567066A20D62251CE87D.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/plugins/Particle-System-0.1.1-DEV.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/dev server/versions/1.21.4/paper-1.21.4.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/Particle-System-0.1.1-DEV.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/CustomParticle.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/FireGenerator.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/ParticleBase.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/ParticleGenerator.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/ParticleSystem$1.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/ParticleSystem$2.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/ParticleSystem.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/ParticlesCMD.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/SparkGenerator.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/WindGenerator.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/target/original-Particle-System-0.1.1-DEV.jar" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "kellentow"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/kellentow/ParticleSystem",
++    "accountId": "55bc03e3-e915-4dda-ab69-4ad2795f7c73"
++  }
++}]]></component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="CurrentFile" />
++  </component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 7
++}</component>
++  <component name="ProjectId" id="2sjSsfVSF0wOozdSTaoEkPqYPMz" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Maven.Particle-System [clean,package].executor": "Run",
++    "Maven.Particle-System [compile].executor": "Run",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "Shell Script.Package and Run.executor": "Run",
++    "Shell Script.Package.executor": "Run",
++    "git-widget-placeholder": "main",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "/home/kellen/IdeaProjects/Particle System"
++  }
++}]]></component>
++  <component name="QodanaHighlightedReportService">
++    <option name="localRunNotPublishedPersistedInfo">
++      <LocalReportPersistedInfo>
++        <option name="path" value="/tmp/qodana_output/qodana.sarif.json" />
++        <option name="reportGuid" value="380aa0f2-8748-42c2-870a-3531a0ea60f3" />
++        <option name="reportName" value="Particle System/qodana/2025-02-12" />
++      </LocalReportPersistedInfo>
++    </option>
++  </component>
++  <component name="QodanaIsSelectedPersistenceService">
++    <option name="selectedOrLoading" value="true" />
++  </component>
++  <component name="QodanaReportsService">
++    <option name="descriptions">
++      <ReportDescription localRun="true" path="/tmp/qodana_output/qodana.sarif.json" reportGuid="380aa0f2-8748-42c2-870a-3531a0ea60f3" reportId="Particle System/qodana/2025-02-12" />
++    </option>
++  </component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/dev server/plugins" />
++    </key>
++  </component>
++  <component name="RunAnythingCache">
++    <option name="myCommands">
++      <command value="mvn compile" />
++      <command value="mvn clean package" />
++    </option>
++  </component>
++  <component name="RunManager">
++    <configuration default="true" type="JetRunConfigurationType">
++      <module name="mcdev-temp-root" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
++      <module name="mcdev-temp-root" />
++      <option name="filePath" />
++      <method v="2" />
++    </configuration>
++    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
++      <module name="mcdev-temp-root" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="Package and Run" type="ShConfigurationType">
++      <option name="SCRIPT_TEXT" value="mvn clean package; mv &quot;target/Particle-System-1.0-SNAPSHOT.jar&quot; &quot;dev server/plugins/Particle-System-1.0-SNAPSHOT.jar&quot;; cd &quot;dev server&quot;; java -Xmx2048M -Xms2048M -jar &quot;paper-1.21.4-143.jar&quot;; cd &quot;../&quot;;" />
++      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
++      <option name="SCRIPT_PATH" value="" />
++      <option name="SCRIPT_OPTIONS" value="" />
++      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
++      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
++      <option name="INTERPRETER_PATH" value="/bin/bash" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="EXECUTE_IN_TERMINAL" value="true" />
++      <option name="EXECUTE_SCRIPT_FILE" value="false" />
++      <envs />
++      <method v="2" />
++    </configuration>
++    <configuration default="true" type="Tox" factoryName="Tox">
++      <module name="mcdev-temp-root" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <method v="2" />
++    </configuration>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="e2038d6a-ba79-4b79-91bb-22bfc9c2204f" name="Changes" comment="" />
++      <created>1738967704487</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1738967704487</updated>
++    </task>
++    <task id="LOCAL-00001" summary="Initial Commit">
++      <option name="closed" value="true" />
++      <created>1739395998648</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1739395998648</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Initial Commit">
++      <option name="closed" value="true" />
++      <created>1739396212023</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1739396212023</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
++    <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/main" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Initial Commit" />
++    <MESSAGE value="pusssshhhh pls" />
++    <option name="LAST_COMMIT_MESSAGE" value="pusssshhhh pls" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1739279224045)
++++ b/.idea/modules.xml	(date 1739279224045)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/Particle-System.iml" filepath="$PROJECT_DIR$/Particle-System.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1739279224045)
++++ b/.idea/vcs.xml	(date 1739279224045)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: target/classes/plugin.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/plugin.yml b/target/classes/plugin.yml
+new file mode 100644
+--- /dev/null	(date 1739343636412)
++++ b/target/classes/plugin.yml	(date 1739343636412)
+@@ -0,0 +1,14 @@
++name: ParticleSystem
++version: '0.1.1'
++main: org.kellen.particleSystem.ParticleSystem
++api-version: '1.21'
++authors: [ Kellen ]
++commands:
++  particles:
++    description: Command for Particle System.
++    usage: /particles
++    permission: particlesystem.particles  # Use a valid permission node
++permissions:
++  particlesystem.particles:
++    description: Allows use of /particles command.
++    default: op  # Only ops can use it by default
+Index: target/maven-archiver/pom.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/target/maven-archiver/pom.properties b/target/maven-archiver/pom.properties
+new file mode 100644
+--- /dev/null	(date 1739316699439)
++++ b/target/maven-archiver/pom.properties	(date 1739316699439)
+@@ -0,0 +1,5 @@
++#Generated by Maven
++#Tue Feb 11 17:31:39 CST 2025
++artifactId=Particle-System
++groupId=org.kellen
++version=0.1.1-DEV
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1739279224044)
++++ b/.idea/encodings.xml	(date 1739279224044)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1739279224044)
++++ b/.idea/compiler.xml	(date 1739279224044)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="Particle-System" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1739279224044)
++++ b/.idea/jarRepositories.xml	(date 1739279224044)
+@@ -0,0 +1,55 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="central" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jitpack.io" />
++      <option name="name" value="jitpack.io" />
++      <option name="url" value="https://jitpack.io" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="sonatype" />
++      <option name="name" value="sonatype" />
++      <option name="url" value="https://oss.sonatype.org/content/groups/public/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="codemc-repo" />
++      <option name="name" value="codemc-repo" />
++      <option name="url" value="https://repo.codemc.io/repository/maven-public/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="papermc-repo" />
++      <option name="name" value="papermc-repo" />
++      <option name="url" value="https://repo.papermc.io/repository/maven-public/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="http://0.0.0.0/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jcenter" />
++      <option name="name" value="jcenter" />
++      <option name="url" value="https://jcenter.bintray.com/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1739396908071)
++++ b/.gitignore	(date 1739396908071)
+@@ -0,0 +1,1 @@
++/dev server/*
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1739279224045)
++++ b/.idea/misc.xml	(date 1739279224045)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst b/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+new file mode 100644
+--- /dev/null	(date 1739321987180)
++++ b/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst	(date 1739321987180)
+@@ -0,0 +1,10 @@
++org/kellen/particleSystem/ParticleSystem$2.class
++org/kellen/particleSystem/ParticleBase.class
++org/kellen/particleSystem/ParticleSystem$1.class
++org/kellen/particleSystem/SparkGenerator.class
++org/kellen/particleSystem/FireGenerator.class
++org/kellen/particleSystem/ParticlesCMD.class
++org/kellen/particleSystem/ParticleSystem.class
++org/kellen/particleSystem/WindGenerator.class
++org/kellen/particleSystem/ParticleGenerator.class
++org/kellen/particleSystem/CustomParticle.class
+Index: Particle-System.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Particle-System.iml b/Particle-System.iml
+new file mode 100644
+--- /dev/null	(date 1739279224037)
++++ b/Particle-System.iml	(date 1739279224037)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module version="4">
++  <component name="FacetManager">
++    <facet type="minecraft" name="Minecraft">
++      <configuration>
++        <autoDetectTypes>
++          <platformType>PAPER</platformType>
++        </autoDetectTypes>
++        <projectReimportVersion>1</projectReimportVersion>
++      </configuration>
++    </facet>
++  </component>
++</module>
+\ No newline at end of file
+Index: target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+new file mode 100644
+--- /dev/null	(date 1739321983743)
++++ b/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(date 1739321983743)
+@@ -0,0 +1,8 @@
++/home/kellen/IdeaProjects/Particle System/src/main/java/org/kellen/particleSystem/CustomParticle.java
++/home/kellen/IdeaProjects/Particle System/src/main/java/org/kellen/particleSystem/FireGenerator.java
++/home/kellen/IdeaProjects/Particle System/src/main/java/org/kellen/particleSystem/ParticleBase.java
++/home/kellen/IdeaProjects/Particle System/src/main/java/org/kellen/particleSystem/ParticleGenerator.java
++/home/kellen/IdeaProjects/Particle System/src/main/java/org/kellen/particleSystem/ParticleSystem.java
++/home/kellen/IdeaProjects/Particle System/src/main/java/org/kellen/particleSystem/ParticlesCMD.java
++/home/kellen/IdeaProjects/Particle System/src/main/java/org/kellen/particleSystem/SparkGenerator.java
++/home/kellen/IdeaProjects/Particle System/src/main/java/org/kellen/particleSystem/WindGenerator.java
+Index: dependency-reduced-pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/dependency-reduced-pom.xml b/dependency-reduced-pom.xml
+new file mode 100644
+--- /dev/null	(date 1739279224037)
++++ b/dependency-reduced-pom.xml	(date 1739279224037)
+@@ -0,0 +1,63 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
++  <modelVersion>4.0.0</modelVersion>
++  <groupId>org.kellen</groupId>
++  <artifactId>Particle-System</artifactId>
++  <name>Particle-System</name>
++  <version>1.0-SNAPSHOT</version>
++  <build>
++    <defaultGoal>clean package</defaultGoal>
++    <resources>
++      <resource>
++        <filtering>true</filtering>
++        <directory>src/main/resources</directory>
++      </resource>
++    </resources>
++    <plugins>
++      <plugin>
++        <artifactId>maven-compiler-plugin</artifactId>
++        <version>3.13.0</version>
++        <configuration>
++          <source>${java.version}</source>
++          <target>${java.version}</target>
++        </configuration>
++      </plugin>
++      <plugin>
++        <artifactId>maven-shade-plugin</artifactId>
++        <version>3.5.3</version>
++        <executions>
++          <execution>
++            <phase>package</phase>
++            <goals>
++              <goal>shade</goal>
++            </goals>
++          </execution>
++        </executions>
++      </plugin>
++    </plugins>
++  </build>
++  <repositories>
++    <repository>
++      <releases />
++      <snapshots />
++      <id>codemc-repo</id>
++      <url>https://repo.codemc.io/repository/maven-public/</url>
++    </repository>
++    <repository>
++      <id>papermc-repo</id>
++      <url>https://repo.papermc.io/repository/maven-public/</url>
++    </repository>
++  </repositories>
++  <dependencies>
++    <dependency>
++      <groupId>io.papermc.paper</groupId>
++      <artifactId>paper-api</artifactId>
++      <version>1.21.4-R0.1-SNAPSHOT</version>
++      <scope>provided</scope>
++    </dependency>
++  </dependencies>
++  <properties>
++    <java.version>21</java.version>
++    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++  </properties>
++</project>
+diff --git a/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst b/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+new file mode 100644
+diff --git a/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst b/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+new file mode 100644
