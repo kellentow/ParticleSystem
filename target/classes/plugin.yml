@@ -1,0 +1,14 @@
+name: ParticleSystem
+version: '0.1.1'
+main: org.kellen.particleSystem.ParticleSystem
+api-version: '1.21'
+authors: [ Kellen ]
+commands:
+  particles:
+    description: Command for Particle System.
+    usage: /particles
+    permission: particlesystem.particles  # Use a valid permission node
+permissions:
+  particlesystem.particles:
+    description: Allows use of /particles command.
+    default: op  # Only ops can use it by default

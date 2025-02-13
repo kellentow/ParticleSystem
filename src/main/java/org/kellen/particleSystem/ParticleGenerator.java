@@ -6,7 +6,7 @@ import java.util.Map;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.entity.Entity;
-import org.bukkit.entity.TextDisplay;
+import org.bukkit.entity.Marker;
 
 public class ParticleGenerator extends ParticleBase{
     public Entity marker;
@@ -20,7 +20,7 @@ public class ParticleGenerator extends ParticleBase{
         this.z = nz;
         this.world = nworld;
         Location location = new Location(world,x,y,z);
-        this.marker = world.spawn(location,TextDisplay.class);
+        this.marker = world.spawn(location, Marker.class);
         marker.setInvisible(true);
         marker.setInvulnerable(true);
         marker.setGravity(false);
