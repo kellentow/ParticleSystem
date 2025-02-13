@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Particle-System (2)" />
         <module name="Particle-System" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Particle-System" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
