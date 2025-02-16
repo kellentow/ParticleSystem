@@ -22,7 +22,7 @@ public class ParticlesCMD implements CommandExecutor, TabCompleter {
         this.plugin = plugin;
     }
 
-    private boolean debug(@NotNull Player sender) {
+    private boolean debugall(@NotNull Player sender) {
         float x, y, z;
         x = (float) sender.getX();
         y = (float) sender.getY();
@@ -48,11 +48,69 @@ public class ParticlesCMD implements CommandExecutor, TabCompleter {
             return false;
         }
         if (Objects.equals(args[0], "debug")) {
-            return debug((Player) sender);
+            if (args.length < 1) {
+                return debugall((Player) sender);
+            } else if (Objects.equals(args[1], "count")) {
+                int count = 0;
+                if (args.length < 2) {
+                    sender.sendMessage("Usage: /particles debug count <?count>");
+                    return false;
+                }
+
+                try {
+                    count = Integer.parseInt(args[2]);
+                } catch (NumberFormatException e) {
+                    sender.sendMessage("Invalid count: " + args[2]);
+                    return false;
+                }
+                class debug extends ParticleGenerator {
+                    public debug(ParticleBase nparent, World nworld, int n) {
+                        super(nparent, nworld, 0, 100, 0);
+                        for (int i = 0; i < n; i++) {
+                            CustomParticle part = new CustomParticle(this, nworld, x, y, z);
+                            part.vx = random.nextFloat(-0.1F, 0.1F);
+                            part.vy = random.nextFloat(-0.1F, 0.1F);
+                            part.vz = random.nextFloat(-0.1F, 0.1F);
+                            part.age = random.nextInt(0, 30);
+                            children.add(part);
+                        }
+                    }
+                    @Override
+                    public void tick() {
+                        for (Object part : this.children) {
+                            if (part instanceof CustomParticle customParticle) {
+                                customParticle.goTo(random.nextFloat(-10,10), random.nextFloat(90,100), random.nextFloat(-10,10));
+                            }
+                        }
+                    }
+                }
+
+                plugin.generators.add(new debug(plugin.toParticleBase(),((Player) sender).getWorld(), count));
+
+                return true;
+            }
+            
         } else if (Objects.equals(args[0], "clear")) {
             for (ParticleGenerator gen : plugin.generators) {
                 gen.marker.remove();
             }
+            return true;
+        } else if (Objects.equals(args[0], "sparks")) {
+            if (args.length <= 3) {
+                sender.sendMessage("Usage: /particles sparks [x] [y] [z]");
+            }
+            float x, y, z;
+            try {
+                x = Float.parseFloat(args[1]);
+                y = Float.parseFloat(args[2]);
+                z = Float.parseFloat(args[3]);
+            } catch (RuntimeException e) {
+                sender.sendMessage("Position must be 3 numbers");
+                sender.sendMessage("Usage: /particles sparks [x] [y] [z]");
+                return false;
+            }
+
+            plugin.generators.add(new SparkGenerator(plugin.toParticleBase(),((Player) sender).getWorld(), x, y, z));
             return true;
         } else if (Objects.equals(args[0], "wind")) {
             if (args.length <= 2) {
@@ -161,6 +219,10 @@ public class ParticlesCMD implements CommandExecutor, TabCompleter {
             } else if (args.length == 3) {
                 // Suggest the player's current coordinates for y
                 return Arrays.asList("150","300","600");
+            }
+        } else if (args[0].equalsIgnoreCase("debug")) {
+            if (args.length == 2) {
+                return Arrays.asList("count");
             }
         }
 

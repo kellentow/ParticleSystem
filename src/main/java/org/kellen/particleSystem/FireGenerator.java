@@ -128,16 +128,34 @@ public class FireGenerator extends ParticleGenerator {
                     velY = 0.01F             +(float) wind.getY()*windmult*0.05f;  // Fixed upward velocity
 
                     if (testCollisions) {
-                        float newx = customParticle.x+customParticle.vx+velX;
-                        float newy = customParticle.y+customParticle.vy+velY;
-                        float newz = customParticle.z+customParticle.vz+velZ;
+                        Vector newpos = new Vector(customParticle.x+customParticle.vx+velX,
+                        customParticle.y+customParticle.vy+velY,
+                        customParticle.z+customParticle.vz+velZ);
 
-                        int blockX = (int) Math.floor(newx);
-                        int checkY = (int) Math.floor(newy);  // Ensure we're checking the exact block above
-                        int blockZ = (int) Math.floor(newz);
+                        int blockX = newpos.getBlockX();
+                        int blockY = newpos.getBlockY();
+                        int blockZ = newpos.getBlockZ();
 
-                        if ((world.getBlockAt(blockX, checkY+1, blockZ).isCollidable() && (checkY+1 - newy) < 0.1F) || world.getBlockAt(blockX, checkY, blockZ).isCollidable()) {
+                        if (lib.Collides(newpos, world.getBlockAt(blockX, blockY, blockZ))) {
                             customParticle.addVel(-velX * 1.1F, (customParticle.vy+velY) * -1.05F, -velZ * 1.1F);
+                            customParticle.age -= 1;
+                        } else if (lib.Collides(newpos, world.getBlockAt(blockX+1, blockY, blockZ))) {
+                            customParticle.addVel(-0.2f, (customParticle.vy+velY) * -1.05F, -velZ * 1.1F);
+                            customParticle.age -= 1;
+                        } else if (lib.Collides(newpos, world.getBlockAt(blockX, blockY+1, blockZ))) {
+                            customParticle.addVel(-velX * 1.1F, (customParticle.vy+velY) * -1F -0.2f, -velZ * 1.1F);
+                            customParticle.age -= 1;
+                        } else if (lib.Collides(newpos, world.getBlockAt(blockX, blockY, blockZ+1))) {
+                            customParticle.addVel(-velX * 1.1F, (customParticle.vy+velY) * -1.05F, -0.2f);
+                            customParticle.age -= 1;
+                        } else if (lib.Collides(newpos, world.getBlockAt(blockX-1, blockY, blockZ))) {
+                            customParticle.addVel(0.2f, (customParticle.vy+velY) * -1.05F, -velZ * 1.1F);
+                            customParticle.age -= 1;
+                        } else if (lib.Collides(newpos, world.getBlockAt(blockX, blockY-1, blockZ))) {
+                            customParticle.addVel(-velX * 1.1F, 0.2F, -velZ * 1.1F);
+                            customParticle.age -= 1;
+                        } else if (lib.Collides(newpos, world.getBlockAt(blockX, blockY, blockZ-1))) {
+                            customParticle.addVel(-velX * 1.1F, (customParticle.vy+velY) * -1.05F, 0.2f);
                             customParticle.age -= 1;
                         }
                     }

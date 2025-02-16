@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2038d6a-ba79-4b79-91bb-22bfc9c2204f" name="Changes" comment="There's a marker entity type apparently so... now i'm using that">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kellen/particleSystem/ParticlesCMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kellen/particleSystem/ParticlesCMD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kellen/particleSystem/SparkGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kellen/particleSystem/SparkGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/ParticlesCMD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/ParticlesCMD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/SparkGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kellen/particleSystem/SparkGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.Particle-System [clean,package].executor": "Run",
-    "Maven.Particle-System [compile].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Shell Script.Package and Run.executor": "Run",
-    "Shell Script.Package.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/kellen/IdeaProjects/Particle System"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.Particle-System [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Particle-System [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Shell Script.Package and Run.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.Package.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kellen/IdeaProjects/Particle System&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaIsSelectedPersistenceService">
     <option name="selectedOrLoading" value="true" />
   </component>

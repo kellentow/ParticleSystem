@@ -6,7 +6,7 @@
 
     <groupId>org.kellen</groupId>
     <artifactId>Particle-System</artifactId>
-    <version>0.1.1-DEV</version>
+    <version>0.1.2-DEV</version>
     <packaging>jar</packaging>
 
     <name>Particle-System</name>

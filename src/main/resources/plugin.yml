@@ -1,5 +1,5 @@
 name: ParticleSystem
-version: '0.1.1'
+version: '0.1.2-DEV'
 main: org.kellen.particleSystem.ParticleSystem
 api-version: '1.21'
 authors: [ Kellen ]

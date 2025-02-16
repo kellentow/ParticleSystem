@@ -58,4 +58,13 @@ public class SparkGenerator extends ParticleGenerator {
             }
         }
     }
+
+    @Override
+    public void draw() {
+        for (Object part : children) {
+            if (part instanceof CustomParticle customParticle) {
+                customParticle.draw(200,200,10,175,0.5f);
+            }
+        }
+    }
 }
